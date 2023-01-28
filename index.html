@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https: //fonts.googleapis.com/css2?family= Montserrat & family= Pacifico & семья = светская + одна и display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nerko+One&family=Roboto:wght@500&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <header class="header main-header">
+        <div class="div-ul">
+            <a href="index.html#main-menu">
+                <h1 class="logo">Maxim</h1>
+            </a>
+            <nav class="main-nav">
+                <div class="mobile-nav">
+                    <ul class="main-ul" id="myLinks">
+                        <a href="index.html#main-menu" onclick="close()">
+                            <li class="glav">Main</li>
+                        </a>
+                        <a href="index.html#about-me1 " onclick="close()">
+                            <li class="about-me">About me</li>
+                        </a>
+                        <a href="index.html#programs1" onclick="close()">
+                            <li class="about-me">Programs</li>
+                        </a>
+                        <a href="index.html#example1" onclick="close()">
+                            <li class="example">Example</li>
+                        </a>
+                        <a href="index.html#projects1" onclick="close()">
+                            <li class="programs">Projects</li>
+                        </a>
+                        <a href="index.html#contacts1" onclick="close()">
+                            <li class="contacts">Contacts</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <div class="burger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+            </nav>
+        </div>
+
+
+    </header>
+    <main>
+        <section class="main-section">
+
+            <!-- Главное меню -->
+            <div class="main-menu" id="main-menu">
+                <div class="block1">
+                    <p class="portfolio">
+                        <img class="people-img" src="https://img.freepik.com/free-photo/portrait-of-white-man-isolated_53876-40306.jpg?w=2000" alt="people">
+                        <div class="text-portfolio">
+                            <p class="name-portfolio">
+                                Portfolio!
+                            </p>
+                            <h1 class="job">3D artist/visualizer</h1>
+                            <h2 class="name">Maksim</h2>
+                        </div>
+                        <a href="https://t.me/Maksimil14"><button class="send-massage" onclick="buy()">Написать в TG
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="20px" height="20px"><path d="M 25.154297 3.984375 C 24.829241 3.998716 24.526384 4.0933979 24.259766 4.2011719 C 24.010014 4.3016357 23.055766 4.7109106 21.552734 5.3554688 C 20.048394 6.0005882 18.056479 6.855779 15.931641 7.7695312 C 11.681964 9.5970359 6.9042108 11.654169 4.4570312 12.707031 C 4.3650097 12.746607 4.0439208 12.849183 3.703125 13.115234 C 3.3623292 13.381286 3 13.932585 3 14.546875 C 3 15.042215 3.2360676 15.534319 3.5332031 15.828125 C 3.8303386 16.121931 4.144747 16.267067 4.4140625 16.376953 C 5.3912284 16.775666 8.4218473 18.015862 8.9941406 18.25 C 9.195546 18.866983 10.29249 22.222526 10.546875 23.044922 C 10.714568 23.587626 10.874198 23.927519 11.082031 24.197266 C 11.185948 24.332139 11.306743 24.45034 11.453125 24.542969 C 11.511635 24.579989 11.575789 24.608506 11.640625 24.634766 L 11.644531 24.636719 C 11.659471 24.642719 11.67235 24.652903 11.6875 24.658203 C 11.716082 24.668202 11.735202 24.669403 11.773438 24.677734 C 11.925762 24.726927 12.079549 24.757812 12.216797 24.757812 C 12.80196 24.757814 13.160156 24.435547 13.160156 24.435547 L 13.181641 24.419922 L 16.191406 21.816406 L 19.841797 25.269531 C 19.893193 25.342209 20.372542 26 21.429688 26 C 22.057386 26 22.555319 25.685026 22.875 25.349609 C 23.194681 25.014192 23.393848 24.661807 23.478516 24.21875 L 23.478516 24.216797 C 23.557706 23.798129 26.921875 6.5273437 26.921875 6.5273438 L 26.916016 6.5507812 C 27.014496 6.1012683 27.040303 5.6826405 26.931641 5.2695312 C 26.822973 4.8564222 26.536648 4.4608905 26.181641 4.2480469 C 25.826669 4.0352506 25.479353 3.9700339 25.154297 3.984375 z M 24.966797 6.0742188 C 24.961997 6.1034038 24.970391 6.0887279 24.962891 6.1230469 L 24.960938 6.1347656 L 24.958984 6.1464844 C 24.958984 6.1464844 21.636486 23.196371 21.513672 23.845703 C 21.522658 23.796665 21.481573 23.894167 21.439453 23.953125 C 21.379901 23.91208 21.257812 23.859375 21.257812 23.859375 L 21.238281 23.837891 L 16.251953 19.121094 L 12.726562 22.167969 L 13.775391 17.96875 C 13.775391 17.96875 20.331562 11.182109 20.726562 10.787109 C 21.044563 10.471109 21.111328 10.360953 21.111328 10.251953 C 21.111328 10.105953 21.035234 10 20.865234 10 C 20.712234 10 20.506484 10.14875 20.396484 10.21875 C 18.963383 11.132295 12.671823 14.799141 9.8515625 16.439453 C 9.4033769 16.256034 6.2896636 14.981472 5.234375 14.550781 C 5.242365 14.547281 5.2397349 14.548522 5.2480469 14.544922 C 7.6958673 13.491784 12.47163 11.434667 16.720703 9.6074219 C 18.84524 8.6937992 20.838669 7.8379587 22.341797 7.1933594 C 23.821781 6.5586849 24.850125 6.1218894 24.966797 6.0742188 z"/></svg>
+                        </button></a>
+                </div>
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="border-div"></div>
+
+            <!-- Обо мне -->
+            <div class="nado">
+                <img src="img/3048122.png" alt="person" class="img-about">
+                <div class="about-me1" id="about-me1">
+
+                    <div class="block2">
+                        <h1 class="h-about">About me</h1>
+                        <p class="p-about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo voluptate, minus neque perferendis voluptates esse ducimus reprehenderit dolor consequuntur expedita voluptas quaerat et dignissimos hic numquam eaque possimus ipsam
+                            magni! Praesentium odio soluta modi blanditiis similique sit mollitia maxime perspiciatis officiis pariatur, iusto, obcaecati ullam aut magni at officia ad? Deleniti harum illo optio ratione totam sequi, quidem quaerat iste.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque explicabo officiis expedita quos et dolores modi doloremque consequatur sint aliquid?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-div2"></div>
+
+            <!-- Програмы на котрых я работаю -->
+
+            <div class="programs1" id="programs1">
+                <div class="check2">
+                    <h1 class="h-programs">What i use?</h1>
+                    <h2 class="h-program1">1.Autodesk 3ds Max</h2>
+                    <div class="m">
+                        <p class="p-program1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem numquam sed voluptatum optio nesciunt ex deserunt assumenda velit fugiat non et officiis, debitis ab voluptate, asperiores reiciendis! Esse ratione facilis quaerat
+                            inventore?
+                        </p>
+                        <img src="https://img.icons8.com/color/512/3ds-max.png" class="tinker">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="border-div3"></div>
+
+            <!-- Примеры -->
+
+            <div class="example1" id="example1">
+                <div class="example2">
+                    <h1 class="h-example1">Examples of my work</h1>
+                    <p class="p-example1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquam obcaecati eligendi perspiciatis, dolorem reiciendis accusantium voluptas eos commodi quod ad similique, ipsam blanditiis excepturi?</p>
+                </div>
+
+                <img src="https://3ddevice.com.ua/wp-content/uploads/2017/06/%D0%9E%D0%B1%D0%B7%D0%BE%D1%80-3Ds-Max-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D0%B0%D1%8F-%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-300x169.jpg"
+                    alt="тут должен быть пример моей работы😥" class="img-example1">
+
+            </div>
+
+            <div class="border-div4"></div>
+
+            <!-- Проекты -->
+            <div class="projects1" id="projects1">
+                <h1 class="my-projects">My Projects</h1>
+                <div class="img-projects">
+                    <div class="img-progects1">
+                        <img src="img/examole_project1.jpg" alt="котик без сахара" class="project1">
+
+                        <a href="project1.html">
+                            <div id="button1" class="Button button1-img">More information</div>
+                        </a>
+
+                        <img src=" https://static.tildacdn.com/tild6135-3837-4665-a439-363835343838/commercial-exterior-.jpg " alt=" " class="project2 ">
+                        <a href="project2.html">
+                            <div id="button2" class="Button button1-img">More information</div>
+                        </a>
+
+                        <img src="https://ireland.apollo.olxcdn.com/v1/files/e4d6adetbnxm1-UA/image;s=644x461 " alt=" " class="project3 ">
+                        <a href="project3.html">
+                            <div id="button3" class="Button button1-img">More information</div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+    <!-- низ сайта -->
+
+
+    <footer>
+        <div class="contacts1" id="contacts1">
+            <div class="foot-words">
+                <a href="https://wa.me/79137688400?text=Здравствуйте ">
+                    <h1 class="h-footer">Developed by Sasha Rotachev</h1>
+                </a>
+
+            </div>
+            <p class="p-footer">2022</p>
+
+
+
+            <div class="soc-seti">
+                <a href="https://t.me/Maksimil14"><img class="im1" src="img/tg.png" alt=""></a>
+                <a href=""><img class="im2" src="img/vk.png" alt=""></a>
+                <a href=""><img class="im3" src="img/email.png" alt=""></a>
+
+
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+        $('.burger-menu').click(function() {
+            $('.burger span:nth-child(1)').toggleClass('active');
+            $('.burger span:nth-child(2)').toggleClass('second');
+            $('.burger span:nth-child(3)').toggleClass('active');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Project1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https: //fonts.googleapis.com/css2?family= Montserrat & family= Pacifico & семья = светская + одна и display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nerko+One&family=Roboto:wght@500&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header main-header">
+        <div class="div-ul">
+            <a href="index.html#main-menu">
+                <h1 class="logo">Maxim</h1>
+            </a>>
+            <nav class="main-nav">
+                <div class="mobile-nav">
+                    <ul class="main-ul" id="myLinks">
+                        <a href="index.html#main-menu" onclick="close()">
+                            <li class="glav">Main</li>
+                        </a>
+                        <a href="index.html#about-me1 " onclick="close()">
+                            <li class="about-me">About me</li>
+                        </a>
+                        <a href="index.html#programs1" onclick="close()">
+                            <li class="about-me">Programs</li>
+                        </a>
+                        <a href="index.html#example1" onclick="close()">
+                            <li class="example">Example</li>
+                        </a>
+                        <a href="index.html#projects1" onclick="close()">
+                            <li class="programs">Projects</li>
+                        </a>
+                        <a href="index.html#contacts1" onclick="close()">
+                            <li class="contacts">Contacts</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <div class="burger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+            </nav>
+        </div>
+
+
+    </header>
+
+
+    <main class="main-information">
+        <section class="section section-project1">
+            <div class="pr1-about">
+                <h1 class="pr1-h1">Project3 Creation</h1>
+                <p class="pr1-p1">Now I want to tell you about how I do project3</p>
+            </div>
+
+            <!-- Блоки создания -->
+
+            <div class="pr1-creation first">
+                <div class="fd1">
+                    <h1 class="pr1-h1-creation1">Modeling</h1>
+                    <p class="pr1-p1-creation1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident eligendi quis quaerat qui! Aspernatur, officiis. Incidunt, repellendus non id placeat amet quod totam! Omnis delectus tenetur quos consectetur aperiam?</p>
+                </div>
+
+                <img class="pr1-img1" src="img/dom.jpg" alt="">
+            </div>
+
+            <div class="pr1-creation second">
+                <div class="fd1">
+                    <h1 class="pr1-h1-creation1">Lighting</h1>
+                    <p class="pr1-p1-creation1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident eligendi quis quaerat qui! Aspernatur, officiis. Incidunt, repellendus non id placeat amet quod totam! Omnis delectus tenetur quos consectetur aperiam?</p>
+                </div>
+
+
+                <img class="pr1-img1" src="https://i.ytimg.com/vi/ySfr4DGmWz8/maxresdefault.jpg" alt="">
+            </div>
+
+            <div class="pr1-creation third">
+                <div class="fd1">
+                    <h1 class="pr1-h1-creation1">Visualisation</h1>
+                    <p class="pr1-p1-creation1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident eligendi quis quaerat qui! Aspernatur, officiis. Incidunt, repellendus non id placeat amet quod totam! Omnis delectus tenetur quos consectetur aperiam?</p>
+                </div>
+
+                <img class="pr1-img1" src="https://static.tildacdn.com/tild3961-3639-4261-b761-376534336566/___038.jpeg" alt="">
+            </div>
+        </section>
+    </main>
+
+
+
+
+    </section>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+        $('.burger-menu').click(function() {
+            $('.burger span:nth-child(1)').toggleClass('active');
+            $('.burger span:nth-child(2)').toggleClass('second');
+            $('.burger span:nth-child(3)').toggleClass('active');
+        });
+    </script>
+</body>
+
+</html>

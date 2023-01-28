@@ -1,0 +1,328 @@
+    @media (max-width: 950px) {
+        .main-menu,
+        .about-me1,
+        .programs1,
+        .example1 {
+            background: rgb(255, 255, 255);
+        }
+        .job,
+        .name {
+            font-size: 30px;
+        }
+        .people-img {
+            width: 160px;
+            height: 320px;
+        }
+    }
+    
+    @media (max-width: 1610px) {
+        .header li {
+            float: center;
+            font-size: 15px;
+            padding-left: -50%;
+        }
+    }
+    
+    @media (max-width: 700px) {
+        body {
+            min-width: none;
+        }
+        .send-massage {
+            background-color: #313638;
+            border-radius: 28px;
+            border: 1px solid #fafafa;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-family: Arial;
+            font-size: 17px;
+            margin: auto;
+            margin-top: 40px;
+            padding-top: 20px;
+            padding: 16px 31px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #2c302c;
+        }
+        .send-massage:hover {
+            background-color: #494d47;
+        }
+        .send-massage:active {
+            position: relative;
+            top: 1px;
+        }
+        .portfolio {
+            display: flex;
+        }
+        .name-portfolio {
+            padding-top: 80px;
+            font-size: 25px;
+        }
+        .main-section {
+            background-color: #343639;
+        }
+        .example1 {
+            padding-bottom: 30%;
+            width: 100%;
+            margin: auto;
+        }
+        .projects1 {
+            width: 100%;
+            margin: auto;
+        }
+        .main-menu {
+            padding-bottom: 30%;
+            width: 100%;
+            background-image: url("https://3dlancer.net/upload/galleries/948/5948/interior-visualisation-113656-xxl.jpg");
+            margin: auto;
+        }
+        .programs1 {
+            background-repeat: no-repeat;
+            -moz-background-size: 100%;
+            /* Firefox 3.6+ */
+            -webkit-background-size: 100%;
+            /* Safari 3.1+ и Chrome 4.0+ */
+            -o-background-size: 100%;
+            padding-bottom: 30%;
+            width: 100%;
+            margin: auto;
+        }
+        .nado {
+            background-color: #fff;
+            width: 100%;
+            margin: auto;
+        }
+        .job,
+        .name {
+            margin: auto;
+            font-size: 30px;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .send-massage {
+            display: block;
+        }
+        .name-portfolio {
+            margin: auto;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-top: 10%;
+        }
+        .people-img {
+            display: flex;
+            align-items: center;
+            margin-left: 103px;
+            border-radius: 50%;
+            margin-top: 25%;
+            width: 200px;
+            height: 200px;
+        }
+        .img-about {
+            margin: auto;
+            position: relative;
+        }
+        .p-about {
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+        }
+        .p-program1 {
+            width: 80%;
+            text-align: center;
+        }
+        .p-example1 {
+            width: 70%;
+            margin-left: 20%;
+        }
+        .img-example1 {
+            width: 230px;
+            height: 140px;
+            margin-left: 23%;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        .header {
+            margin-top: -20px;
+            padding-bottom: 7%;
+        }
+        .burger-menu {
+            min-width: none;
+            display: flex;
+            width: 70px;
+            margin-left: auto;
+            margin-top: 50px;
+            margin-right: 20px;
+        }
+        .burger-menu.active {
+            top: 0;
+        }
+        .main-ul {
+            display: none;
+            padding: 0;
+            margin: 50px;
+            margin: 0;
+            list-style: none;
+            position: relative;
+        }
+        .h-example1 {
+            margin-left: 0%;
+        }
+        .main-nav ul li {
+            margin: 0px -7px 0 0;
+            display: block;
+            margin: auto;
+            text-align: center;
+            background-color: #fff;
+            border: 7px solid rgb(255, 255, 255);
+        }
+        .main-nav ul li:after {
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 0;
+            height: 4px;
+            background-color: #000000;
+            content: "";
+            transition: width 0.3s ease-out;
+        }
+        .main-nav ul li:hover:after,
+        .main-nav ul li:focus:after {
+            margin-left: 15%;
+            width: 75%;
+        }
+        .logo {
+            margin-left: -90px;
+            margin-top: 50px;
+            font-size: 30px;
+        }
+        .mobile-nav {
+            width: 100%;
+            background-color: rgb(0, 0, 0);
+        }
+        .main-ul {
+            position: fixed;
+            width: 40%;
+            top: 0;
+            right: 0;
+            height: 100%;
+            margin-top: 100px;
+            border: 100%;
+            border-left: 6px solid rgb(52, 54, 57);
+            height: 100%;
+            font-size: 30px;
+            z-index: 1;
+            background-color: rgb(255, 255, 255);
+        }
+        .main-ul li {
+            padding: 10px;
+            font-weight: 600;
+            font-size: 17px;
+            margin: -20px;
+        }
+        .about-me1 {
+            display: flex;
+        }
+        .block2 {
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .h-about {
+            margin-left: 70px;
+        }
+        .h-programs {
+            margin-left: 12%;
+        }
+        .h-program1 {
+            clear: both;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 30px;
+            width: 80%;
+            font-size: 33px;
+        }
+        .h-footer,
+        .p-footer {
+            clear: both;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .p-about {
+            width: 70%;
+            margin: auto;
+        }
+        .border-div,
+        .border-div2,
+        .border-div3,
+        .border-div4 {
+            padding-bottom: 15px;
+        }
+        .tinker {
+            padding-top: 30px;
+            height: 150px;
+            width: 200px;
+            margin-left: 24%;
+        }
+        .m {
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .Button {
+            margin: auto;
+        }
+        .project1,
+        .project2,
+        .project3 {
+            height: 200px;
+            width: 300px;
+            margin: auto;
+        }
+        .soc-seti {
+            clear: both;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .im1,
+        .im2,
+        .im3 {
+            width: 40px;
+            height: 40px;
+            padding: 10px;
+            clear: both;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .pr1-img1 {
+            width: 270px;
+            padding: 40px;
+        }
+        .pr1-h1 {
+            padding: 20px;
+        }
+        .pr1-p1 {
+            font-size: 20px;
+            padding: 20px;
+            width: 80%;
+        }
+        .pr1-h1-creation1 {
+            font-size: 25px;
+            padding: 10px;
+        }
+        .pr1-p1-creation1 {
+            font-size: 20px;
+            width: 300px;
+        }
+        .pr1-creation {
+            font-size: 20px;
+            padding: 20px;
+            flex-direction: column;
+        }
+        .main-information {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+        .logo {
+            margin-right: -5px;
+        }
+    }
